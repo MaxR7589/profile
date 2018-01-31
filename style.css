@@ -40,12 +40,9 @@ li {
   list-style-type: none;
 }
 
-#ul_social {
-  list-style-type: disc
-}
-
 .list-inline {
-    font-size: 20px;
+  font-size: 20px;
+  padding-left: 0px;
 }
 
 .h2-shows {
@@ -80,10 +77,6 @@ li {
   padding: 0px 20px;
 }
 
-.list-inline {
-  padding-left: 0px;
-}
-
 #img-profile {
   width: 100px;
   height: 100px;
@@ -108,7 +101,39 @@ li {
   width: 150px;
 }
 
+/*Sidebar*/
 
+#sidebar {
+  background-color: #384047;
+  position: fixed;
+  width: 100px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#sidebar ul{
+  list-style: none;
+  text-align: center;
+  padding-left: 0px;
+}
+
+#sidebar li {
+  vertical-align: top;
+  float: center;
+  padding: 0px 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+#sidebar a {
+  color: #788188;
+}
+
+#sidebar a:hover {
+  color: #F1162F;
+}
 
 /*Responsive*/
 @media (max-width: 960px) {
