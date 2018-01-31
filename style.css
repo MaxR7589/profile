@@ -1,0 +1,144 @@
+/*Fonts and colors*/
+
+body {
+  background: #EBEBEB;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: #F1162F;
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F1162F;
+}
+
+li {
+  list-style-type: none;
+}
+
+#ul_social {
+  list-style-type: disc
+}
+
+.list-inline {
+    font-size: 20px;
+}
+
+.h2-shows {
+  color: #F1162F;
+}
+
+/*Box model*/
+.container {
+  width: 500px;
+  margin: 30px auto;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.text-align {
+  text-align: center;
+}
+
+/*Advanced selectors*/
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+#img-profile {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #F1162F;
+}
+
+.btn-red {
+    background-color: #F1162F;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.tvshow-poster{
+  height: 300px;
+  width: 200px;
+}
+
+.profile-picture{
+  height: 150px;
+  width: 150px;
+}
+
+
+
+/*Responsive*/
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
