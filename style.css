@@ -32,7 +32,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+li a:hover {
   color: #F1162F;
 }
 
@@ -85,17 +85,17 @@ li {
 }
 
 #img-profile {
-    width: 100px;
-    height: 100px;
-    border: 3px solid #F1162F;
+  width: 100px;
+  height: 100px;
+  border: 3px solid #F1162F;
 }
 
 .btn-red {
-    background-color: #F1162F;
-    color: white;
-    font-weight: 500;
-    padding: 10px;
-    border-radius: 5px;
+  background-color: #F1162F;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .tvshow-poster{
